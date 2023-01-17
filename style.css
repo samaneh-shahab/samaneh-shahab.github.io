@@ -349,7 +349,7 @@ section.contact {
 	width: 100% !important;
 	height: auto !important;
 
-	image-orientation: none;
+	image-orientation: from-image;
 	
 	object-fit: cover;
 	margin-bottom:5px; /* to match column gap */
