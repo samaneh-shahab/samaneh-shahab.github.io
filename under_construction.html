@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Home | Shahab</title>
+</head>
+<body>
+	<nav class="nav-main">
+		<a href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="researches.html">Research</a>
+		<a href="under_construction.html">Publications</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contacts</a>
+	</nav>
+	<main class="main_sheet">
+		<section class="develop">
+			<article class="develop">
+				<center><img src="imgs/code.png" alt="nothing" width="400px" style="text-align: center; display: block;"/></center>
+				<center><p style="font-size: 1.6em;">The page is not available, We're working on it</p></center>
+			</article>
+		</section>
+	</main>
+	<footer class="panel_bottom">
+		<p>All rights reserved! | Last update, winter 2023 </p>
+	</footer>
+
+	<script type="text/javascript" language="JavaScript">
+		function switch_to ( _id ) {
+			var temp = document.getElementById( _id );
+			let temp_hr = document.getElementById( _id+"-hr" )
+			/*console.log(_id)*/
+			/*console.log(temp)*/
+			if (  temp.style.display == 'none' ) {
+				temp.style.display = 'block';
+				temp_hr.style.display = 'block';
+			}
+			else {
+				temp.style.display = 'none';
+				temp_hr.style.display = 'none';
+			}
+
+		}
+	</script>
+</body>
+</html>
