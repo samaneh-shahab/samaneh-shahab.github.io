@@ -349,6 +349,8 @@ section.contact {
 	width: 100% !important;
 	height: auto !important;
 
+	image-orientation: none;
+	
 	object-fit: cover;
 	margin-bottom:5px; /* to match column gap */
 	/*filter: grayscale(100%);*/
